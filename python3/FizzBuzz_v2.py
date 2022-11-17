@@ -1,8 +1,8 @@
 class FizzBuzz():
-    def __init__(self):
-        self.i = 0
+    def __init__(self, i):
+        self.i = i
     
-    def start_fizzbuzz(self, max):
+    def fizzbuzz_start(self, max):
         while True:
             if self.i > max:
                 break
@@ -18,8 +18,8 @@ class FizzBuzz():
             self.i += 1
 
 def main():
-    fb = FizzBuzz()
-    fb.start_fizzbuzz(100)
+    fb = FizzBuzz(0)
+    fb.fizzbuzz_start(100)
 
 
 if __name__ == "__main__":
