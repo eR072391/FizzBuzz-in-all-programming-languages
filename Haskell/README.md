@@ -1,0 +1,1 @@
+## Haskell で FizzBuzz
